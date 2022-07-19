@@ -81,7 +81,7 @@ class AppLoginCubit extends Cubit<AppLoginStates> {
     });
   }
 
-// To update Message Image in Home Screen
+  ///To update Message Image in Home Screen
   void updateUser({String qrcode}) {
     emit(AppUpdateUserLoadingState());
 
